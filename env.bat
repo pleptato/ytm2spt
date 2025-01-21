@@ -1,9 +1,9 @@
 @echo off
 
 @REM Remove the  < and > characters when setting the actual values in line 4,5,6.
-set SPOTIFY_USER_ID=<your_user_id>
-set SPOTIFY_CLIENT_ID=<your_client_id>
-set SPOTIFY_CLIENT_SECRET=<your_client_secret>
+set SPOTIFY_USER_ID=31benjbx63pyhzqi7w47e46425hq
+set SPOTIFY_CLIENT_ID=bbb373e2fbad4556af6cac6a7eab00e8
+set SPOTIFY_CLIENT_SECRET=a4e977ec0b7749db91b5b7447cf2a99d
 set SPOTIFY_REDIRECT_URI=http://localhost:8888/callback
 
 setx SPOTIFY_USER_ID %SPOTIFY_USER_ID%
